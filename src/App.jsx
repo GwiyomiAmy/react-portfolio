@@ -1,37 +1,32 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import './App.css'
+
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 
 import AboutMePage from "./pages/AboutMePage"
 import PortfolioPage from "./pages/PortfolioPage"
-import ContactPage from "./pages/ContactPage"
 import ResumePage from "./pages/ResumePage"
+import ContactPage from "./pages/ContactPage"
 
-import "/node_modules/bootstrap/dist/css/bootstrap.min.css"
+export default function App() {
 
-export default function App(){
-  return(
+  return (
     <div className="viewport">
-      <header>
-        <nav>
-          <h1>Amy Jenkins</h1>
-          <BrowserRouter>
-            <Routes>
-              <Route path ="/" element={<AboutMe />} />
-              <Route path ="/portfolio" element={<Portfolio />} />
-              <Route path ="/contact" element={<Contact />} />
-              <Route path ="/resume" element={<Resume />} />
-            </Routes>
-          </BrowserRouter>
-        </nav>
-      </header>
-
+      <Header />
       
-
-
-
-      <footer>
-
-      </footer>
+      <div className="card">
+        <BrowserRouter>
+           <Routes>
+             <Route path ="/" element={<AboutMePage />} />
+             <Route path ="/portfolio" element={<PortfolioPage />} />
+             <Route path ="/contact" element={<ContactPage />} />
+             <Route path ="/resume" element={<ResumePage />} />
+           </Routes>
+         </BrowserRouter> 
+      </div>
+      <Footer />
     </div>
   )
 }
