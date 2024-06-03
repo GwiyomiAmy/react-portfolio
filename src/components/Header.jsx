@@ -1,14 +1,15 @@
 import React from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
  
-import Navbar from "./Navbar"
+import Navigation from "./Navigation"
 
 export default function Header() {
 
   return (
+    
     <div>
-      <h1>Amy Jenkins</h1>
-      <Navbar />
+      <h1 className="flex">Amy Jenkins</h1> 
+      <Navigation />
     </div>
   );
 }

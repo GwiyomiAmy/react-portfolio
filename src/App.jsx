@@ -14,18 +14,18 @@ export default function App() {
 
   return (
     <div className="viewport">
+        <BrowserRouter>
       <Header />
       
       <div className="card">
-        <BrowserRouter>
            <Routes>
              <Route path ="/" element={<AboutMePage />} />
              <Route path ="/portfolio" element={<PortfolioPage />} />
              <Route path ="/contact" element={<ContactPage />} />
              <Route path ="/resume" element={<ResumePage />} />
            </Routes>
-         </BrowserRouter> 
       </div>
+         </BrowserRouter> 
       <Footer />
     </div>
   )

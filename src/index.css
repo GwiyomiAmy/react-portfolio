@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #ccccccde;
+  background-color: #0f292f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,11 +16,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #cb2d6f;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  background-color: #501f3a;
 }
 
 body {
@@ -66,4 +66,16 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+#sidebar a.active {
+  background-color: #501f3a;
+}
+
+.my-photo {
+  width: 20%; /*width of image adjusts per size of the screen*/
+  height: auto; /*height is relative to the width*/
+  border-radius: 50%; /*makes the image a circle*/
+  z-index: 10; /*places image above the navigation line bar*/
+  background-color: transparent; /*allows the pink background to display through the transparancy of the image*/
 }

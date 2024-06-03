@@ -3,44 +3,57 @@
       "name": "Blissful Blog",
       "repo": "https://github.com/GwiyomiAmy/blissful-blog",
       "deploy": "https://gwiyomiamy.github.io/blissful-blog/",
-      "img": "../assets/blog.png"
+      "img": "/assets/blog.png"
    },
    {
       "name": "Task Board",
       "repo": "https://github.com/GwiyomiAmy/task-board",
       "deploy": "https://gwiyomiamy.github.io/task-board/",
-      "img": "../assets/task-board.png"
+      "img": "/assets/task-board.png"
    },
    {
       "name": "Weather Dashboard",
       "repo": "https://github.com/GwiyomiAmy/weather-dashboard",
       "deploy": "https://gwiyomiamy.github.io/weather-dashboard/",
-      "img": "../assets/weather-dashboard.png"
+      "img": "/assets/weather-dashboard.png"
    },
    {
       "name": "Text Editor",
       "repo": "https://github.com/GwiyomiAmy/text-editor",
       "deploy": "https://text-editor-kii2.onrender.com/",
-      "img": "../assets/text-editor.png"
+      "img": "/assets/text-editor.png"
    },
    {
       "name": "README Creator",
       "repo": "https://github.com/GwiyomiAmy/readme-creator",
-      "img": "../assets/README-creator.gif"
+      "img": "/assets/README-creator.gif"
    },
    {
       "name": "SVG Generator",
       "repo": "https://github.com/GwiyomiAmy/svg-logo-generator",
-      "img": "../assets/svg-creator.gif"
+      "img": "/assets/svg-creator.gif"
    },
    {
       "name": "Employee Tracker",
       "repo": "https://github.com/GwiyomiAmy/employee-tracker",
-      "img": "../assets/employee-tracker.gif"
+      "img": "/assets/employee-tracker.gif"
+   },
+   {
+      "name": "RPG",
+      "repo": "https://github.com/J5imonson/dnd-rpg",
+      "deploy": "https://j5imonson.github.io/dnd-rpg/",
+      "img": "/assets/rpg.png"
+   },
+   {
+      "name": "Apartment Maintenance App",
+      "repo": "https://github.com/4Bollard/apartment-maintenance-app",
+      "deploy": "https://apartment-maintenance-app.onrender.com/login",
+      "img": "/assets/apt-maintenance.png"
    },
    {
       "name": "Social Network API",
       "repo": "https://github.com/GwiyomiAmy/social-network-api",
-      "img": "<iframe src='https://drive.google.com/file/d/1xFn2jXAlXhbhA432HpVqRZ-D-DeLueGQ/preview' width='640' height='480'></iframe>"
+      "deploy": "https://drive.google.com/file/d/1xFn2jXAlXhbhA432HpVqRZ-D-DeLueGQ/edit",
+      "img": "/assets/social-network-api.webm"
    }
 ]
