@@ -39,16 +39,22 @@
       "img": "/assets/employee-tracker.gif"
    },
    {
-      "name": "RPG",
+      "name": "RPG (group effort)",
       "repo": "https://github.com/J5imonson/dnd-rpg",
       "deploy": "https://j5imonson.github.io/dnd-rpg/",
       "img": "/assets/rpg.png"
    },
    {
-      "name": "Apartment Maintenance App",
+      "name": "Apartment Maintenance App (group effort)",
       "repo": "https://github.com/4Bollard/apartment-maintenance-app",
       "deploy": "https://apartment-maintenance-app.onrender.com/login",
       "img": "/assets/apt-maintenance.png"
+   },
+   {
+      "name": "DragonFruit Delights (group effort)",
+      "repo": "https://github.com/AnnaManrodt/dragon_fruit_recipes",
+      "deploy": "https://dragon-fruit-recipes.onrender.com/",
+      "img": "/assets/dragonfruit-delights.png"
    },
    {
       "name": "Social Network API",
