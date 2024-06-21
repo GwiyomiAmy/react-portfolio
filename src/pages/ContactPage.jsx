@@ -43,33 +43,12 @@ export default function ContactPage(){
   };
    return(
       <div className="container text-center">
+        <p>This page is under construction. Please see links below or resume for contact information.</p>
       <form className="form" onSubmit={handleFormSubmit}>
-        {/* To Do: make required */} 
-        {/* TO DO: make valid email */}
-        <input
-          value={name}
-          name="name"
-          type="text"
-          onChange={handleInputChange}
-          placeholder="Name"
-          required
-        />
-        <input
-          value={email}
-          name="email"
-          type="email"
-          onChange={handleInputChange}
-          placeholder="sample@example.com"
-        />
-        <input
-          value={message}
-          name="message"
-          type="textarea"
-          onChange={handleInputChange}
-          placeholder="Your message here"
-          required
-        />
-        <button type="submit">Submit</button>
+        {/* <input value={name} name="name" type="text" onChange={handleInputChange} placeholder="Name" required/> */}
+        {/* <input value={email} name="email" type="email" onChange={handleInputChange}  placeholder="sample@example.com"/> */}
+        {/* <input value={message} name="message" type="textarea" onChange={handleInputChange} placeholder="Your message here" required/> */}
+        {/* <button type="submit">Submit</button> */}
       </form>
     </div>
    )
